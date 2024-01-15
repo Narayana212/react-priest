@@ -37,9 +37,9 @@ export function CarouselDemo() {
   );
 
   return (
-    <div>
+    <div className="  flex flex-col justify-center md:justify-start md:items-start items-center md:pl-44">
       <Carousel
-        className="w-full max-w-xs pt-5"
+        className="w-full  py-20 max-w-xs  md:scale-[1.75]"
         setApi={setApi}
         opts={{
           align: "start",
@@ -51,7 +51,7 @@ export function CarouselDemo() {
             <CarouselItem key={index}>
               <div className="p-1">
                 <Card>
-                  <CardContent className="flex aspect-video items-center justify-center p-6">
+                  <CardContent className="flex  aspect-video items-center justify-center p-6">
                     <span className="text-4xl font-semibold">{index + 1}</span>
                   </CardContent>
                 </Card>

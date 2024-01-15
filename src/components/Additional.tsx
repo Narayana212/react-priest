@@ -69,7 +69,7 @@ export default function Additional() {
         
        
         <h1 className="text-lg font-medium tracking-tight text-gray-900 ">
-        Experience
+        Social Media
         </h1>
         <div className="flex items-center gap-x-10 gap-y-3 pt-3 flex-wrap">
           
