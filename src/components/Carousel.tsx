@@ -39,7 +39,7 @@ export function CarouselDemo() {
   return (
     <div className="  flex flex-col justify-center md:justify-start md:items-start items-center md:pl-44">
       <Carousel
-        className="w-full  py-20 max-w-xs  md:scale-[1.75]"
+        className="w-full  py-20 max-w-xs  px-5 md:scale-[1.75]"
         setApi={setApi}
         opts={{
           align: "start",
